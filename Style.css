@@ -2,7 +2,7 @@ body{
   background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190827/pngtree-abstract-metallic-black-gold-frame-sport-design-concept-innovation-background-image_304900.jpg");
 }
 li{
-  margin-right: 40px;
+  font-size: 20px;
   color: white;
 }
 main{
@@ -14,26 +14,25 @@ main{
     border: seagreen;
     border-radius: 20px;
     border-style: groove;
-    text-align: center;
+    text-align: left;
   }
   img{
     float: right;
   }
-  h1{
-      text-align: center;
-      color: white;
-      
-  }
+  
   h2{
-    text-align: center;
+    text-align: left;
     color: white;
     
   }
   
   p{
-    text-align: center;
+    text-align: left;
     color: white;
     
+  }
+  ul{
+    text-align: left;
   }
 
   ol{
