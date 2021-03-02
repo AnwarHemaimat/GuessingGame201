@@ -12,9 +12,9 @@ while(myCountry==null || myCountry==""){
     let myCountry=prompt("I am from Jordan ! ");
     console.log(myCountry)
 }
-if(myCountry.toUpperCase=='Yes' || myCountry.toUpperCase=='Y'){
+if(myCountry.toUpperCase()=='YAS' || myCountry.toUpperCase()=='Y'){
     alert("Yes, this is true.")
-}else if(myCountry.toUpperCase=='No' || myCountry.toUpperCase=='N'){
+}else if(myCountry.toUpperCase()=='NO' || myCountry.toUpperCase()=='N'){
     alert("No, this is false. I am really from Jordan.")
 }
 
@@ -26,9 +26,9 @@ while(myStudy==null || myStudy==""){
     let myStudy=prompt("I studied Languages !");
     console.log(myStudy)
 }
-if(myStudy.toUpperCase=='Yes' || myStudy.toUpperCase=='Y'){
+if(myStudy.toUpperCase()=='YAS' || myStudy.toUpperCase()=='Y'){
     alert("No, this is fals. I studied Software engineering.")
-}else if( myStudy.toUpperCase=='No' || myStudy.toUpperCase=='N' ){
+}else if( myStudy.toUpperCase()=='NO' || myStudy.toUpperCase()=='N' ){
     alert("Yes, this is true. I am studied Software engineering.")
 }
 
@@ -39,9 +39,9 @@ while(myUniversity==null || myUniversity==""){
     let myUniversity=prompt("I graduated from Turkish universities !");
     console.log(myUniversity)
 }
-if(myUniversity.toUpperCase=='Yes' || myUniversity.toUpperCase=='Y'){
+if(myUniversity.toUpperCase()=='YAS' || myUniversity.toUpperCase()=='Y'){
     alert("No, this is false. Actullay I graduated from Jordanian universities")
-}else if( myUniversity.toUpperCase=='No' || myUniversity.toUpperCase=='N' ){
+}else if( myUniversity.toUpperCase()=='NO' || myUniversity.toUpperCase()=='N' ){
     alert("Yes, actullay I graduated from Jordanian universities.")
 }
 
@@ -53,9 +53,9 @@ while(myHobby==null || myHobby==""){
     let myHobby=prompt("Painting is my hobby !");
     console.log(myHobby)
 }
-if(myHobby.toUpperCase=='Yes' || myHobby.toUpperCase=='Y'){
+if(myHobby.toUpperCase()=='YAS' || myHobby.toUpperCase()=='Y'){
     alert("No, this is false. I have a lot of hobbies but not painting.")
-}else if( myHobby.toUpperCase=='No' || myHobby.toUpperCase=='N' ){
+}else if( myHobby.toUpperCase()=='NO' || myHobby.toUpperCase()=='N' ){
     alert("Yes, this is true. I have a lot of hobbies but not painting.")
 }
 
@@ -66,9 +66,9 @@ while(myCourse==null || myCourse==""){
     let myCourse=prompt("Now I am a student in LTUC - ASAC !");
     console.log(myCourse)
 }
-if(myCourse.toUpperCase=='Yes' || myCourse.toUpperCase=='Y'){
+if(myCourse.toUpperCase()=='YAS' || myCourse.toUpperCase()=='Y'){
     alert("Yes, this is true. Now I am a student in LTUC - ASAC.")
-}else if( myCourse.toUpperCase=='No' || myCourse.toUpperCase=='N' ){
+}else if( myCourse.toUpperCase()=='NO' || myCourse.toUpperCase()=='N' ){
     alert("No, this is false. I am a student now in LTUC - ASAC.")
 }
 
