@@ -27,8 +27,8 @@ while(myCountry==null || myCountry=="" || myStudy==null || myStudy=="" || myAge=
     console.log(myHobby)
     let myCourse=prompt("Now I am a student in LTUC - ASAC !");
     console.log(myCourse)
-if(myCountry=='Yes' || myStudy=='Yes' || myAge=='Yes' || myHobby=='Yes' || myCourse=='Yes' ||myCountry=='No' || myStudy=='No' || myAge=='No' || myHobby=='No' || myCourse=='No' || myCountry=='Y' || myStudy=='Y' || myAge=='Y' || myHobby=='Y' || myCourse=='Y' || myCountry=='N' || myStudy=='N' || myAge=='N' || myHobby=='N' || myCourse=='N'){
+     if(myCountry=='Yes' || myStudy=='Yes' || myAge=='Yes' || myHobby=='Yes' || myCourse=='Yes' ||myCountry=='No' || myStudy=='No' || myAge=='No' || myHobby=='No' || myCourse=='No' || myCountry=='Y' || myStudy=='Y' || myAge=='Y' || myHobby=='Y' || myCourse=='Y' || myCountry=='N' || myStudy=='N' || myAge=='N' || myHobby=='N' || myCourse=='N'){
     alert("Welcome my friend "+" "+userName+" , " + "I'm so glad you tried to find out some information about me. Let me show you who I am .");
-} else
+    } else
     alert("Please enter (Yes) Or (No) or (Y) Or (N) ,"+" "+"try again");
-}
+    }
