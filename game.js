@@ -1,3 +1,4 @@
+//Cofirm a message , Var sum , Check about username if empty or not , Greeting user
 confirm("This is a guessing game, be ready my friend");
 alert("You should write Yes Or No and maybe Y Or N,"+" "+"be ready");
 let sum=0;
@@ -9,8 +10,11 @@ while(userName==null || userName==""){
     console.log(userName)
 }
 alert("Hello"+" "+userName+ ","+"I hope you are fine, and welcome you in my guessing game.");
-
+ 
+// Ask 4 questions , Check the questions if empty,yes,no,y or n , Add the total
 let myCountry=prompt("I am from Jordan ! ");
+
+//first question
 console.log(myCountry)
 while(myCountry==null || myCountry==""){
     alert("Please enter (Yes) Or (No) or (Y) Or (N) ,"+" "+"try again");
@@ -24,7 +28,7 @@ if(myCountry.toUpperCase()=='YAS' || myCountry.toUpperCase()=='Y'){
     alert("No, this is false. I am really from Jordan.");
 }
 
-
+//Second question
 let myStudy=prompt("I studied Languages !");
 console.log(myStudy)
 while(myStudy==null || myStudy==""){
@@ -39,7 +43,7 @@ if(myStudy.toUpperCase()=='YAS' || myStudy.toUpperCase()=='Y'){
     sum=sum+1;
 
 }
-
+//Third question
 let myUniversity=prompt("I graduated from Turkish universities !");
 console.log(myStudy)
 while(myUniversity==null || myUniversity==""){
@@ -54,7 +58,7 @@ if(myUniversity.toUpperCase()=='YAS' || myUniversity.toUpperCase()=='Y'){
     sum=sum+1;
 }
 
-
+// Forth question
 let myHobby=prompt("Painting is my hobby !");
 console.log(myHobby)
 while(myHobby==null || myHobby==""){
@@ -69,6 +73,7 @@ if(myHobby.toUpperCase()=='YAS' || myHobby.toUpperCase()=='Y'){
     sum=sum+1;
 }
 
+// Fifth question
 let myCourse=prompt("Now I am a student in LTUC - ASAC !");
 console.log(myCourse)
 while(myCourse==null || myCourse==""){
@@ -83,6 +88,7 @@ if(myCourse.toUpperCase()=='YAS' || myCourse.toUpperCase()=='Y'){
     alert("No, this is false. I am a student now in LTUC - ASAC.");
 }
 
+// Guess the number, this is sixth question , is about my age, the user try four times to guess
 let guess=prompt("Enter my age if you can guess, is between 25 and 30")
 console.log(guess)
 while(guess==null || guess==""){
@@ -90,8 +96,8 @@ while(guess==null || guess==""){
     let guess=prompt("Enter my age if you can guess again , is between 25 and 30")
     console.log(guess)
 }
-for(let count=0 ; count < 5 ; count++){
-    while(guess!=29){
+for(let count=1 ; count < 5 ; count++){
+    if (parseInt(guess)!=29){
             alert("No, Please try again !");
             let guess=prompt("Enter my age if you can guess, is between 25 and 30")
             console.log(guess)
@@ -103,6 +109,7 @@ for(let count=0 ; count < 5 ; count++){
             }
     }
 
+    // Seventh question , Array, the user try 6 times to guess
 let cars = ["mercedes", "bmw", "ford", "jeep", "honda", "land cruiser"];
 let carsUser=prompt("Can you guess what my favorite car is ?")
 console.log(carsUser)
@@ -112,13 +119,13 @@ while(carsUser==null || carsUser==""){
     console.log(carsUser)
 }
 
-for(let count2=0 ; count2<7 ; count2++){
-    while(carsUser!=cars){
+for(let count2=1 ; count2<cars.length ; count2++){
+    if (carsUser.toLowerCase()!==cars[count2]){
         alert("No, Please try again !");
         let carsUser=prompt("Can you guess what my favorite cars are again ?")
         console.log(carsUser)
 }       
-        if(carsUser.toLowerCase()==cars){
+        if(carsUser.toLowerCase()==cars[count2]){
             alert("Yes, this is true. Actually My favorite cars are: mercedes, bmw, ford, jeep, honda and land cruiser.");
             sum=sum+1;
             count2=6;
