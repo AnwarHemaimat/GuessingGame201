@@ -132,10 +132,10 @@ function carsfun(){
 }
  carsfun();
 
-function countingfun(){
+function countingfunction(){
     let counting=7;
     counting=counting-sum;
     alert("Welcome my friend "+" "+userName+" , " + "I'm so glad you tried to find out some information about me. Let me show you who I am .");
     alert("Hello"+" "+userName+" ,"+"Your result of this game is:"+" "+ sum+"."+"So You answered"+" "+sum+" questions, and you didn't answered"+" "+counting+" questions."+" "+"Thank you to play this game with me.");
 }
-countingfun();
+countingfunction();
