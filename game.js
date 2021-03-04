@@ -42,7 +42,7 @@ myStudyFun();
 //Third question
 function myUniversityFun(){
     let myUniversity=prompt("I graduated from Turkish universities !");
-    console.log(myStudy)
+    console.log(myUniversity)
     if(myUniversity.toUpperCase()=='YES' || myUniversity.toUpperCase()=='Y'){
         alert("No, this is false. Actullay I graduated from Jordanian universities");
     }else if( myUniversity.toUpperCase()=='NO' || myUniversity.toUpperCase()=='N' ){
