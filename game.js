@@ -12,7 +12,6 @@ alert("Hello"+" "+userName+ ","+"I hope you are fine, and welcome you in my gues
 function myCountryFun(){
     let myCountry=prompt("I am from Jordan ! ");
     console.log(myCountry)
-
     if(myCountry.toUpperCase()=='YES' || myCountry.toUpperCase()=='Y'){
         alert("Yes, this is true.");
         sum=sum+1;
@@ -30,7 +29,6 @@ function myCountryFun(){
 function myStudyFun(){
     let myStudy=prompt("I studied Languages !");
     console.log(myStudy)
-
     if(myStudy.toUpperCase()=='YES' || myStudy.toUpperCase()=='Y'){
         alert("No, this is fals. I studied Software engineering.");
     }else if( myStudy.toUpperCase()=='NO' || myStudy.toUpperCase()=='N' ){
@@ -41,7 +39,6 @@ function myStudyFun(){
         alert("Actually to know; I studied Software engineering.")
     }
 }
-
 myStudyFun();
 
 
@@ -125,8 +122,7 @@ function carsFun(){
             alert("No, Please try again !");
             let carsUser=prompt("Can you guess what my favorite cars are again ?")
             console.log(carsUser)
-    }       
-            if(carsUser.toLowerCase()==cars[count2]){
+    }else if(carsUser.toLowerCase()==cars[count2]){
                 alert("Yes, this is true. Actually My favorite cars are: mercedes, bmw, ford, jeep, honda and land cruiser.");
                 sum=sum+1;
                 count2=6;
