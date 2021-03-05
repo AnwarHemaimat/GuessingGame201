@@ -8,9 +8,14 @@ console.log(userName)
 alert("Hello"+" "+userName+ ","+"I hope you are fine, and welcome you in my guessing game.");
  
 // Ask 4 questions , Check the questions if empty,yes,no,y or n , Add the total
+
+function myCountryfun(){
+    let myCountry=prompt("I am from Jordan ! ");
+    console.log(myCountry)
 function myCountryFun(){
     let myCountry=prompt("I am from Jordan ! ");
     console.log(myCountry)
+
     if(myCountry.toUpperCase()=='YES' || myCountry.toUpperCase()=='Y'){
         alert("Yes, this is true.");
         sum=sum+1;
@@ -20,13 +25,16 @@ function myCountryFun(){
         alert("You lost the point ! because you should answer with yes or no.")
         alert("Actually to know; I am from Jordan.")
     }
+    }
 }
- myCountryFun();  
+    myCountryfun();
+  
 
 //Second question
 function myStudyFun(){
     let myStudy=prompt("I studied Languages !");
     console.log(myStudy)
+
     if(myStudy.toUpperCase()=='YES' || myStudy.toUpperCase()=='Y'){
         alert("No, this is fals. I studied Software engineering.");
     }else if( myStudy.toUpperCase()=='NO' || myStudy.toUpperCase()=='N' ){
@@ -37,7 +45,9 @@ function myStudyFun(){
         alert("Actually to know; I studied Software engineering.")
     }
 }
-myStudyFun();
+
+myStudyfun();
+
 
 //Third question
 function myUniversityFun(){
@@ -53,8 +63,8 @@ function myUniversityFun(){
         alert("Actually to know; I graduated from Jordanian universities.")
     }
 }
-myUniversityFun();
 
+myUniversityfun();
 
 // Forth question
 function myHobbyFun(){
@@ -68,9 +78,10 @@ function myHobbyFun(){
     }else{
         alert("You lost the point ! because you should answer with yes or no.")
         alert("Actually to know; I have a lot of hobbies but not painting.")
-    }    
+    }
 }
-myHobbyFun();
+myHobbyfun();
+
 
 // Fifth question
 function myCourseFun(){
@@ -84,7 +95,7 @@ function myCourseFun(){
     }else{
         alert("You lost the point ! because you should answer with yes or no.")
         alert("Actually to know; I am a student now in LTUC - ASAC.")
-    }    
+    }
 }
 myCourseFun();
 
@@ -105,7 +116,8 @@ function guessFun(){
                 }
         }  
 }
-guessFun();
+guessfun();
+    // Seventh question , Array, the user try 6 times to guess
 
 // Seventh question , Array, the user try 6 times to guess
 function carsFun(){
@@ -125,7 +137,9 @@ function carsFun(){
             }
     }
 }
-carsFun();
+
+ carsfun();
+
 
 function countingFun(){
     let counting=7;
@@ -134,4 +148,3 @@ function countingFun(){
     alert("Hello"+" "+userName+" ,"+"Your result of this game is:"+" "+ sum+"."+"So You answered"+" "+sum+" questions, and you didn't answered"+" "+counting+" questions."+" "+"Thank you to play this game with me.");    
 }
 countingFun();
-
