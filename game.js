@@ -12,7 +12,6 @@ alert("Hello"+" "+userName+ ","+"I hope you are fine, and welcome you in my gues
 function myCountryfun(){
     let myCountry=prompt("I am from Jordan ! ");
     console.log(myCountry)
-function myCountryFun(){
     let myCountry=prompt("I am from Jordan ! ");
     console.log(myCountry)
 
@@ -26,8 +25,7 @@ function myCountryFun(){
         alert("Actually to know; I am from Jordan.")
     }
     }
-}
-    myCountryfun();
+    myCountryFun();
   
 
 //Second question
@@ -64,7 +62,7 @@ function myUniversityFun(){
     }
 }
 
-myUniversityfun();
+myUniversityFun();
 
 // Forth question
 function myHobbyFun(){
@@ -80,7 +78,7 @@ function myHobbyFun(){
         alert("Actually to know; I have a lot of hobbies but not painting.")
     }
 }
-myHobbyfun();
+myHobbyFun();
 
 
 // Fifth question
@@ -116,7 +114,7 @@ function guessFun(){
                 }
         }  
 }
-guessfun();
+guessFun();
     // Seventh question , Array, the user try 6 times to guess
 
 // Seventh question , Array, the user try 6 times to guess
@@ -138,7 +136,7 @@ function carsFun(){
     }
 }
 
- carsfun();
+ carsFun();
 
 
 function countingFun(){
