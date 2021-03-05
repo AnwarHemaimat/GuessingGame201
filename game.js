@@ -12,8 +12,6 @@ alert("Hello"+" "+userName+ ","+"I hope you are fine, and welcome you in my gues
 function myCountryFun(){
     let myCountry=prompt("I am from Jordan ! ");
     console.log(myCountry)
-    let myCountry=prompt("I am from Jordan ! ");
-    console.log(myCountry)
 
     if(myCountry.toUpperCase()=='YES' || myCountry.toUpperCase()=='Y'){
         alert("Yes, this is true.");
