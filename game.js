@@ -9,7 +9,7 @@ alert("Hello"+" "+userName+ ","+"I hope you are fine, and welcome you in my gues
  
 // Ask 4 questions , Check the questions if empty,yes,no,y or n , Add the total
 
-function myCountryfun(){
+function myCountryFun(){
     let myCountry=prompt("I am from Jordan ! ");
     console.log(myCountry)
     let myCountry=prompt("I am from Jordan ! ");
