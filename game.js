@@ -46,7 +46,7 @@ function myStudyFun(){
     }
 }
 
-myStudyfun();
+myStudyFun();
 
 
 //Third question
