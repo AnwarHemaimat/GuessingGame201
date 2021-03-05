@@ -86,24 +86,24 @@ function myCourseFun(){
         alert("Actually to know; I am a student now in LTUC - ASAC.")
     }    
 }
-myCountryFun();
+myCourseFun();
 
 // Guess the number, this is sixth question , is about my age, the user try four times to guess
 function guessFun(){
     let guess=prompt("Enter my age if you can guess, is between 25 and 30")
     console.log(guess)
     for(let count=1 ; count < 5 ; count++){
-        if (parseInt(guess)!=29){
+
+        if(parseInt(guess)!=29){
                 alert("No, Please try again !");
                 let guess=prompt("Enter my age if you can guess, is between 25 and 30")
                 console.log(guess)
-        }
-                if(parseInt(guess)==29){
+        } else if(parseInt(guess)==29){
                     alert("Yes, this is true, my age is 29 years old.");
                     sum=sum+1;
                     count=4;
                 }
-        }    
+        }  
 }
 guessFun();
 
