@@ -4,18 +4,18 @@ alert("You should write Yes Or No and maybe Y Or N,"+" "+"be ready");
 let sum=0;
 let userName=prompt("Please provide your name");
 console.log(userName)
-//while(userName==null || userName==""){
-  //  alert("Please don't left your name empty !")
-    //let userName=prompt("Please provide your name");
-//     console.log(userName)
-// }
+
 alert("Hello"+" "+userName+ ","+"I hope you are fine, and welcome you in my guessing game.");
  
 // Ask 4 questions , Check the questions if empty,yes,no,y or n , Add the total
+
 function myCountryfun(){
     let myCountry=prompt("I am from Jordan ! ");
     console.log(myCountry)
-    
+function myCountryFun(){
+    let myCountry=prompt("I am from Jordan ! ");
+    console.log(myCountry)
+
     if(myCountry.toUpperCase()=='YES' || myCountry.toUpperCase()=='Y'){
         alert("Yes, this is true.");
         sum=sum+1;
@@ -27,12 +27,13 @@ function myCountryfun(){
     }
     }
     myCountryfun();
+  
 
 //Second question
-function myStudyfun(){
+function myStudyFun(){
     let myStudy=prompt("I studied Languages !");
     console.log(myStudy)
-    
+
     if(myStudy.toUpperCase()=='YES' || myStudy.toUpperCase()=='Y'){
         alert("No, this is fals. I studied Software engineering.");
     }else if( myStudy.toUpperCase()=='NO' || myStudy.toUpperCase()=='N' ){
@@ -43,10 +44,12 @@ function myStudyfun(){
         alert("Actually to know; I studied Software engineering.")
     }
 }
+
 myStudyfun();
 
+
 //Third question
-function myUniversityfun(){
+function myUniversityFun(){
     let myUniversity=prompt("I graduated from Turkish universities !");
     console.log(myUniversity)
     if(myUniversity.toUpperCase()=='YES' || myUniversity.toUpperCase()=='Y'){
@@ -59,10 +62,11 @@ function myUniversityfun(){
         alert("Actually to know; I graduated from Jordanian universities.")
     }
 }
+
 myUniversityfun();
 
 // Forth question
-function myHobbyfun(){
+function myHobbyFun(){
     let myHobby=prompt("Painting is my hobby !");
     console.log(myHobby)
     if(myHobby.toUpperCase()=='YES' || myHobby.toUpperCase()=='Y'){
@@ -77,8 +81,9 @@ function myHobbyfun(){
 }
 myHobbyfun();
 
+
 // Fifth question
-function myCoursefun(){
+function myCourseFun(){
     let myCourse=prompt("Now I am a student in LTUC - ASAC !");
     console.log(myCourse)
     if(myCourse.toUpperCase()=='YES' || myCourse.toUpperCase()=='Y'){
@@ -93,11 +98,12 @@ function myCoursefun(){
 }
 myCoursefun();
 
+
+
 // Guess the number, this is sixth question , is about my age, the user try four times to guess
-function guessfun(){
+function guessFun(){
     let guess=prompt("Enter my age if you can guess, is between 25 and 30")
     console.log(guess)
-    
     for(let count=1 ; count < 5 ; count++){
         if (parseInt(guess)!=29){
                 alert("No, Please try again !");
@@ -113,7 +119,9 @@ function guessfun(){
 }
 guessfun();
     // Seventh question , Array, the user try 6 times to guess
-function carsfun(){
+
+// Seventh question , Array, the user try 6 times to guess
+function carsFun(){
     let cars = ["mercedes", "bmw", "ford", "jeep", "honda", "land cruiser"];
     let carsUser=prompt("Can you guess what my favorite car is ?")
     console.log(carsUser)
@@ -130,12 +138,15 @@ function carsfun(){
             }
     }
 }
+
  carsfun();
 
-function countingfunction(){
+
+function countingFun(){
     let counting=7;
     counting=counting-sum;
     alert("Welcome my friend "+" "+userName+" , " + "I'm so glad you tried to find out some information about me. Let me show you who I am .");
-    alert("Hello"+" "+userName+" ,"+"Your result of this game is:"+" "+ sum+"."+"So You answered"+" "+sum+" questions, and you didn't answered"+" "+counting+" questions."+" "+"Thank you to play this game with me.");
+    alert("Hello"+" "+userName+" ,"+"Your result of this game is:"+" "+ sum+"."+"So You answered"+" "+sum+" questions, and you didn't answered"+" "+counting+" questions."+" "+"Thank you to play this game with me.");    
 }
-countingfunction();
+countingFun();
+
