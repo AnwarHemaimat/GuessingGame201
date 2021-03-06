@@ -1,4 +1,6 @@
 //Cofirm a message , Var sum , Check about username if empty or not , Greeting user
+"use strict";
+
 confirm("This is a guessing game, be ready my friend");
 alert("You should write Yes Or No and maybe Y Or N,"+" "+"be ready");
 let sum=0;
