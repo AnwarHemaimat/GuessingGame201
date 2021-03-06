@@ -2,37 +2,76 @@ body{
   background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190827/pngtree-abstract-metallic-black-gold-frame-sport-design-concept-innovation-background-image_304900.jpg");
 }
 li{
-  font-size: 20px;
+  font-size: 15px;
   color: white;
+  text-align: center;
 }
 main{
   color: white;
-  
 }
+b{
+  font-size: 30px;
+  color: blanchedalmond;
+}
+nav{
+  font-weight: bolder;
+  display: inline-block;
+  margin-left: 20px;
+  border:  rgb(24, 7, 119);
+  border-radius: 20px;
+  border-style:outset;
+  padding: 20px;
+  padding-left: 150px;
+  background-image:url(https://i.pinimg.com/originals/53/4b/9b/534b9bbe32fc84b51f998c678d2a1dd7.jpg);
+}
+/* div {
+  padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 50px;
+   padding-left: 80px;
+ } */
 
 #demo{
-    border: seagreen;
-    border-radius: 20px;
-    border-style: groove;
-    text-align: left;
+    border: rgb(217, 245, 59);
+    border-radius: 30px;
+    text-align: center;
+    text-shadow: 1px 1px;
   }
   img{
     float: right;
   }
-  
-  h2{
-    text-align: left;
-    color: white;
-    
+  @keyframes example {
+    from {background-color: rgb(204, 201, 0);}
+    to {background-color: rgb(245, 16, 16);}
   }
+  h1{
+    text-align: center;
+    font-size: 40px;
+    animation-name: example;
+    animation-duration: 60s;
+  }
+  @keyframes example2 {
+    from {background-color: rgb(204, 201, 0);}
+    to {background-color: rgb(7, 8, 56);}
+  }
+  h2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-style: bold;
+    animation-name: example2;
+    animation-duration: 30s;
+  }
+ 
   
   p{
-    text-align: left;
-    color: white;
-    
+    text-align: center;
+    color: rgb(216, 231, 3);
+    font-size: 20px;
   }
   ul{
     text-align: left;
+    
   }
 
   ol{
@@ -41,9 +80,4 @@ main{
     
   }
    
-  #greet{
-    border: sienna;
-    border-style: solid;
-    padding: 15px;
-    display: inline-block;
-  }
+ 
